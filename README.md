@@ -16,9 +16,11 @@ For this analysis we need to answer the follow questions:
 According to the results, there are three variables that provide a non-random amount of variance: the intercept, the vehicle length and ground clearance, this variable has smaller a p-value in other words is statistically significant. The rest of the variables are not statistically significant, if there is more data, we can change or skip these variables to help the efficiency of the model.
 
 **Is the slope of the linear model considered to be zero? Why or why not?**
+
 The results of the p-value of our linear regression analysis are 5.35e-11, which is smaller the significance level of 0.05%. Therefore, we can state that there is evidence to reject the null hypothesis, which means that the slope of our linear model is not zero.
 
 **Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?**
+
 From our multiple linear regression model, the r-squared value is 0.7149, which means that 71% of the variability of the miles per galon (mpg) are explained using this linear model. Although the multiple linear regression model is good to predicting our current dataset, the lack of significant variables is evidence of overfitting, which means that the performance of a model performs well with a current dataset but fails to generalize and predict future data correctly.
 
 ## Summary Statistics on Suspension Coils
